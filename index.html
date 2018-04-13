@@ -1,0 +1,756 @@
+﻿<!doctype html>
+<!--[if lt IE 7]>
+<html class="ie6 oldie"> <![endif]-->
+<!--[if IE 7]>
+<html class="ie7 oldie"> <![endif]-->
+<!--[if IE 8]>
+<html class="ie8 oldie"> <![endif]-->
+<!--[if gt IE 8]><!-->
+<html class="">
+<!--<![endif]-->
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>EC MC ANS</title>
+    <style type="text/css">
+
+        article, aside, details, figcaption, figure, footer, header, hgroup, nav, section {
+            display: block;
+        }
+
+        audio, canvas, video {
+            display: inline-block;
+            *display: inline;
+            *zoom: 1;
+        }
+
+        audio:not([controls]) {
+            display: none;
+        }
+
+        [hidden] {
+            display: none;
+        }
+
+        html {
+            font-size: 100%;
+            overflow-y: scroll;
+            -webkit-text-size-adjust: 100%;
+            -ms-text-size-adjust: 100%;
+        }
+
+        body {
+            margin: 0;
+            font-size: 13px;
+            line-height: 1.231;
+        }
+
+        body, button, input, select, textarea {
+            font-family: sans-serif;
+            color: #222;
+        }
+
+        a {
+            color: #00e;
+        }
+
+        a:visited {
+            color: #551a8b;
+        }
+
+        a:hover {
+            color: #06e;
+        }
+
+        a:focus {
+            outline: thin dotted;
+        }
+
+        a:hover, a:active {
+            outline: 0;
+        }
+
+        abbr[title] {
+            border-bottom: 1px dotted;
+        }
+
+        b, strong {
+            font-weight: bold;
+        }
+
+        blockquote {
+            margin: 1em 40px;
+        }
+
+        dfn {
+            font-style: italic;
+        }
+
+        hr {
+            display: block;
+            height: 1px;
+            border: 0;
+            border-top: 1px solid #ccc;
+            margin: 1em 0;
+            padding: 0;
+        }
+
+        ins {
+            background: #ff9;
+            color: #000;
+            text-decoration: none;
+        }
+
+        mark {
+            background: #ff0;
+            color: #000;
+            font-style: italic;
+            font-weight: bold;
+        }
+
+        pre, code, kbd, samp {
+            font-family: monospace, monospace;
+            _font-family: 'courier new', monospace;
+            font-size: 1em;
+        }
+
+        pre {
+            white-space: pre;
+            white-space: pre-wrap;
+            word-wrap: break-word;
+        }
+
+        q {
+            quotes: none;
+        }
+
+        q:before, q:after {
+            content: "";
+            content: none;
+        }
+
+        small {
+            font-size: 85%;
+        }
+
+        sub, sup {
+            font-size: 75%;
+            line-height: 0;
+            position: relative;
+            vertical-align: baseline;
+        }
+
+        sup {
+            top: -0.5em;
+        }
+
+        sub {
+            bottom: -0.25em;
+        }
+
+        ul, ol {
+            margin: 1em 0;
+            padding: 0 0 0 40px;
+        }
+
+        dd {
+            margin: 0 0 0 40px;
+        }
+
+        nav ul, nav ol {
+            list-style: none;
+            list-style-image: none;
+            margin: 0;
+            padding: 0;
+        }
+
+        img {
+            border: 0;
+            -ms-interpolation-mode: bicubic;
+            vertical-align: middle;
+        }
+
+        svg:not(:root) {
+            overflow: hidden;
+        }
+
+        figure {
+            margin: 0;
+        }
+
+        form {
+            margin: 0;
+        }
+
+        fieldset {
+            border: 0;
+            margin: 0;
+            padding: 0;
+        }
+
+        label {
+            cursor: pointer;
+        }
+
+        legend {
+            border: 0;
+            *margin-left: -7px;
+            padding: 0;
+        }
+
+        button, input, select, textarea {
+            font-size: 100%;
+            margin: 0;
+            vertical-align: baseline;
+            *vertical-align: middle;
+        }
+
+        button, input {
+            line-height: normal;
+            *overflow: visible;
+        }
+
+        table button, table input {
+            *overflow: auto;
+        }
+
+        button, input[type="button"], input[type="reset"], input[type="submit"] {
+            cursor: pointer;
+            -webkit-appearance: button;
+        }
+
+        input[type="checkbox"], input[type="radio"] {
+            box-sizing: border-box;
+        }
+
+        input[type="search"] {
+            -webkit-appearance: textfield;
+            -moz-box-sizing: content-box;
+            -webkit-box-sizing: content-box;
+            box-sizing: content-box;
+        }
+
+        input[type="search"]::-webkit-search-decoration {
+            -webkit-appearance: none;
+        }
+
+        button::-moz-focus-inner, input::-moz-focus-inner {
+            border: 0;
+            padding: 0;
+        }
+
+        textarea {
+            overflow: auto;
+            vertical-align: top;
+            resize: vertical;
+        }
+
+        input:valid, textarea:valid {
+        }
+
+        input:invalid, textarea:invalid {
+            background-color: #f0dddd;
+        }
+
+        table {
+            border-collapse: collapse;
+            border-spacing: 0;
+        }
+
+        td {
+            vertical-align: top;
+        }
+
+        .ir {
+            display: block;
+            border: 0;
+            text-indent: -999em;
+            overflow: hidden;
+            background-color: transparent;
+            background-repeat: no-repeat;
+            text-align: left;
+            direction: ltr;
+        }
+
+        .ir br {
+            display: none;
+        }
+
+        .hidden {
+            display: none !important;
+            visibility: hidden;
+        }
+
+        .visuallyhidden {
+            border: 0;
+            clip: rect(0 0 0 0);
+            height: 1px;
+            margin: -1px;
+            overflow: hidden;
+            padding: 0;
+            position: absolute;
+            width: 1px;
+        }
+
+        .visuallyhidden.focusable:active, .visuallyhidden.focusable:focus {
+            clip: auto;
+            height: auto;
+            margin: 0;
+            overflow: visible;
+            position: static;
+            width: auto;
+        }
+
+        .invisible {
+            visibility: hidden;
+        }
+
+        .clearfix:before, .clearfix:after {
+            content: "";
+            display: table;
+        }
+
+        .clearfix:after {
+            clear: both;
+        }
+
+        .clearfix {
+            zoom: 1;
+        }
+
+        @media print {
+            * {
+                background: transparent !important;
+                color: black !important;
+                text-shadow: none !important;
+                filter: none !important;
+                -ms-filter: none !important;
+            }
+
+            a, a:visited {
+                text-decoration: underline;
+            }
+
+            a[href]:after {
+                content: " (" attr(href) ")";
+            }
+
+            abbr[title]:after {
+                content: " (" attr(title) ")";
+            }
+
+            .ir a:after, a[href^="javascript:"]:after, a[href^="#"]:after {
+                content: "";
+            }
+
+            pre, blockquote {
+                border: 1px solid #999;
+                page-break-inside: avoid;
+            }
+
+            thead {
+                display: table-header-group;
+            }
+
+            tr, img {
+                page-break-inside: avoid;
+            }
+
+            img {
+                max-width: 100% !important;
+            }
+
+            @page {
+                margin: 0.5cm;
+            }
+
+            p, h2, h3 {
+                orphans: 3;
+                widows: 3;
+            }
+
+            h2, h3 {
+                page-break-after: avoid;
+            }
+        }
+    </style>
+    <style type="text/css">
+        img, object, embed, video {
+            max-width: 100%;
+        }
+
+        .ie6 img {
+            width: 100%;
+        }
+
+        .gridContainer {
+            margin-left: auto;
+            margin-right: auto;
+            width: 87.36%;
+            padding-left: 1.82%;
+            padding-right: 1.82%;
+        }
+
+        #LayoutDiv1 {
+            clear: both;
+            float: left;
+            margin-left: 0;
+            width: 100%;
+            display: block;
+        }
+
+        #LayoutDiv2 {
+            clear: both;
+            float: left;
+            margin-left: 0;
+            width: 100%;
+            display: block;
+        }
+
+        @media only screen and (min-width: 481px) {
+            .gridContainer {
+                width: 90.675%;
+                padding-left: 1.1625%;
+                padding-right: 1.1625%;
+            }
+
+            #LayoutDiv1 {
+                clear: both;
+                float: left;
+                margin-left: 0;
+                width: 100%;
+                display: block;
+            }
+
+            #LayoutDiv2 {
+                clear: both;
+                float: left;
+                margin-left: 0;
+                width: 100%;
+                display: block;
+            }
+        }
+
+        @media only screen and (min-width: 769px) {
+            .gridContainer {
+                width: 88.2%;
+                max-width: 1232px;
+                padding-left: 0.9%;
+                padding-right: 0.9%;
+                margin: auto;
+            }
+
+            #LayoutDiv1 {
+                clear: both;
+                float: left;
+                margin-left: 0;
+                width: 100%;
+                display: block;
+            }
+
+            #LayoutDiv2 {
+                clear: both;
+                float: left;
+                margin-left: 0;
+                width: 100%;
+                display: block;
+            }
+        }
+    </style>
+
+    <!--<link href="boilerplate.css" rel="stylesheet" type="text/css">
+    <link href="1.css" rel="stylesheet" type="text/css">-->
+
+    <!--[if lt IE 9]>
+    <script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+    <![endif]-->
+
+    <!--
+    <script src="respond.min.js"
+    >-->
+    <SCRIPT LANGUAGE="JavaScript">
+        /*! Respond.js v1.0.1pre: min/max-width media query polyfill. (c) Scott Jehl. MIT/GPLv2 Lic. j.mp/respondjs  */
+        (function (e, h) {
+            e.respond = {};
+            respond.update = function () {
+            };
+            respond.mediaQueriesSupported = h;
+            if (h) {
+                return
+            }
+            var u = e.document, r = u.documentElement, i = [], k = [], p = [], o = {}, g = 30,
+                f = u.getElementsByTagName("head")[0] || r, b = f.getElementsByTagName("link"), d = [],
+                a = function () {
+                    var B = b, w = B.length, z = 0, y, x, A, v;
+                    for (; z < w; z++) {
+                        y = B[z], x = y.href, A = y.media, v = y.rel && y.rel.toLowerCase() === "stylesheet";
+                        if (!!x && v && !o[x]) {
+                            if (y.styleSheet && y.styleSheet.rawCssText) {
+                                m(y.styleSheet.rawCssText, x, A);
+                                o[x] = true
+                            } else {
+                                if (!/^([a-zA-Z]+?:(\/\/)?)/.test(x) || x.replace(RegExp.$1, "").split("/")[0] === e.location.host) {
+                                    d.push({href: x, media: A})
+                                }
+                            }
+                        }
+                    }
+                    t()
+                }, t = function () {
+                    if (d.length) {
+                        var v = d.shift();
+                        n(v.href, function (w) {
+                            m(w, v.href, v.media);
+                            o[v.href] = true;
+                            t()
+                        })
+                    }
+                }, m = function (G, v, x) {
+                    var E = G.match(/@media[^\{]+\{([^\{\}]+\{[^\}\{]+\})+/gi), H = E && E.length || 0,
+                        v = v.substring(0, v.lastIndexOf("/")), w = function (I) {
+                            return I.replace(/(url\()['"]?([^\/\)'"][^:\)'"]+)['"]?(\))/g, "$1" + v + "$2$3")
+                        }, y = !H && x, B = 0, A, C, D, z, F;
+                    if (v.length) {
+                        v += "/"
+                    }
+                    if (y) {
+                        H = 1
+                    }
+                    for (; B < H; B++) {
+                        A = 0;
+                        if (y) {
+                            C = x;
+                            k.push(w(G))
+                        } else {
+                            C = E[B].match(/@media ([^\{]+)\{([\S\s]+?)$/) && RegExp.$1;
+                            k.push(RegExp.$2 && w(RegExp.$2))
+                        }
+                        z = C.split(",");
+                        F = z.length;
+                        for (; A < F; A++) {
+                            D = z[A];
+                            i.push({
+                                media: D.match(/(only\s+)?([a-zA-Z]+)(\sand)?/) && RegExp.$2,
+                                rules: k.length - 1,
+                                minw: D.match(/\(min\-width:[\s]*([\s]*[0-9]+)px[\s]*\)/) && parseFloat(RegExp.$1),
+                                maxw: D.match(/\(max\-width:[\s]*([\s]*[0-9]+)px[\s]*\)/) && parseFloat(RegExp.$1)
+                            })
+                        }
+                    }
+                    j()
+                }, l, q, j = function (E) {
+                    var v = "clientWidth", x = r[v], D = u.compatMode === "CSS1Compat" && x || u.body[v] || x, z = {},
+                        C = u.createDocumentFragment(), B = b[b.length - 1], w = (new Date()).getTime();
+                    if (E && l && w - l < g) {
+                        clearTimeout(q);
+                        q = setTimeout(j, g);
+                        return
+                    } else {
+                        l = w
+                    }
+                    for (var y in i) {
+                        var F = i[y];
+                        if (!F.minw && !F.maxw || (!F.minw || F.minw && D >= F.minw) && (!F.maxw || F.maxw && D <= F.maxw)) {
+                            if (!z[F.media]) {
+                                z[F.media] = []
+                            }
+                            z[F.media].push(k[F.rules])
+                        }
+                    }
+                    for (var y in p) {
+                        if (p[y] && p[y].parentNode === f) {
+                            f.removeChild(p[y])
+                        }
+                    }
+                    for (var y in z) {
+                        var G = u.createElement("style"), A = z[y].join("\n");
+                        G.type = "text/css";
+                        G.media = y;
+                        if (G.styleSheet) {
+                            G.styleSheet.cssText = A
+                        } else {
+                            G.appendChild(u.createTextNode(A))
+                        }
+                        C.appendChild(G);
+                        p.push(G)
+                    }
+                    f.insertBefore(C, B.nextSibling)
+                }, n = function (v, x) {
+                    var w = c();
+                    if (!w) {
+                        return
+                    }
+                    w.open("GET", v, true);
+                    w.onreadystatechange = function () {
+                        if (w.readyState != 4 || w.status != 200 && w.status != 304) {
+                            return
+                        }
+                        x(w.responseText)
+                    };
+                    if (w.readyState == 4) {
+                        return
+                    }
+                    w.send(null)
+                }, c = (function () {
+                    var v = false;
+                    try {
+                        v = new XMLHttpRequest()
+                    } catch (w) {
+                        v = new ActiveXObject("Microsoft.XMLHTTP")
+                    }
+                    return function () {
+                        return v
+                    }
+                })();
+            a();
+            respond.update = a;
+
+            function s() {
+                j(true)
+            }
+
+            if (e.addEventListener) {
+                e.addEventListener("resize", s, false)
+            } else {
+                if (e.attachEvent) {
+                    e.attachEvent("onresize", s)
+                }
+            }
+        })(this, (function (f) {
+            if (f.matchMedia) {
+                return true
+            }
+            var e, i = document, c = i.documentElement, g = c.firstElementChild || c.firstChild, h = !i.body,
+                d = i.body || i.createElement("body"), b = i.createElement("div"), a = "only all";
+            b.id = "mq-test-1";
+            b.style.cssText = "position:absolute;top:-99em";
+            d.appendChild(b);
+            b.innerHTML = '_<style media="' + a + '"> #mq-test-1 { width: 9px; }</style>';
+            if (h) {
+                c.insertBefore(d, g)
+            }
+            b.removeChild(b.firstChild);
+            e = b.offsetWidth == 9;
+            if (h) {
+                c.removeChild(d)
+            } else {
+                d.removeChild(b)
+            }
+            return e
+        })(this));
+    </script>
+    <script>
+        function checkAns() {
+            var Input = document.getElementById("checkInput").value;
+            var ansYear = Input.substr(0, 2);
+            var ansNo = Input.substr(2, 2);
+            var ansContent = document.getElementById(ansYear + 'ans').innerHTML;
+            var ansContentNoSpace = ansContent.replace(/ /g, "");
+            document.getElementById("ResultDiv").innerHTML = ansContentNoSpace.charAt(parseInt(ansNo));
+
+        }
+    </script>
+</head>
+
+<body>
+
+<div class="gridContainer" id="ansContainer">
+    90:
+    <div id="90ans">
+        ACBDB CADCB DCDDD BDBCD BBACC CCDAC BCAAA BCBAD CAADC BDDBA AABDB DDABA
+    </div>
+    91:
+    <div id="91ans">
+        DADBD BDDCB BCDAC CABCD ADCAD DCAAA BBAAB ABCBC BCDCB DCBCD BDAAB DCADC
+    </div>
+    92:
+    <div id="92ans">
+        DCADD BDBCC AADDB ACCAD CAADA BACCC CCBBD ACDAB DBBAD DABBA ABCBB ADACB
+    </div>
+    93:
+    <div id="93ans">
+        CDDBC ABBCD DABCD DDACD CDDAA BBCBD CCCAA DBACD CCDBC ABCAC AABBA ABCDB
+    </div>
+    94:
+    <div id="94ans">
+        CDCDC CBBCA BBDCB AADCC CCCBA DACAC CBABA DDDBA BDCCD BDBCB BACDA DDAAD
+    </div>
+    95:
+    <div id="95ans">
+        D*DDC CBADB CAADC CAABC CBCBC CBADB ACDCA DADAB ABABC DABBC BDDDB CDDDA
+    </div>
+    96:
+    <div id="96ans">
+        CDDDA BABBC CBBAD ACBAA DDBAD *BDCC BADCC BACCA ACCBD DDCCA BDBDC AADDB
+    </div>
+    97:
+    <div id="97ans">
+        DCDCB ABDCD DCBDA CCABA DAAAC BDABA BBBAA BBCDC CCADA BACCC DCBBB CACDB
+    </div>
+    98:
+    <div id="98ans">
+        DBDDC BCCBD BDABC DDBDD ACBAA ADAAC BDADA DCCDB CBBAB DCBCA CCCA
+    </div>
+    99:
+    <div id="99ans">
+        BCCDC CABBB ACCAD CCCCD DABCA DDDBC AACBD BDABB BDACA AADDD BAAA
+    </div>
+    00:
+    <div id="00ans">
+        CCCDA ABBDA DDABD BBDBC DDBAB CCBCB ACACA ADCDC AABCB DABBC AADD
+    </div>
+    01:
+    <div id="01ans">
+        DBCDA DACBC BDBDA DCBCC BAABB CACDD BACAA BACDC BAADD DCDDA
+    </div>
+    02:
+    <div id="02ans">
+        BDAAC ADACB BBCDD DDCDA CBCBC BDABC CADCC DCABA ABDAC BCABD
+    </div>
+    03:
+    <div id="03ans">
+        BCCBC CCCBA BDDCD BDACC CDDDB CBBDB CAADB CBABC AABDC BBCDC
+    </div>
+    04:
+    <div id="04ans">
+        DCBCD DCBCA BBCDD CDCBD CDADA BCCCB AAAAA BAABB DDDAB DCCBB
+    </div>
+    05:
+    <div id="05ans">
+        DCCDC BDABC BADCC DCBCA DBDAC ABCBC ABDDC AAACD BBBDB AADCB
+    </div>
+    06:
+    <div id="06ans">
+        CDDDA CBCDB BCACD BADBA CBCBD AACDC DCBAD DBCBA BACBC ACDAA
+    </div>
+    07:
+    <div id="07ans">
+        BCDCD BCBBB DCDCB CABAB AADDD CDBAC DAACB DABAD *ABCD BBCDC
+    </div>
+    08:
+    <div id="08ans">
+        ADBDA BCCCD BDCBC DDDCB DAAAC BCDAC CACCB DABDA BADBC BACBA
+    </div>
+    09:
+    <div id="09ans">
+        BABDB DAACC ABBBA CDADD CDDCB AACAB BCABC CCADD CCDCD CBABD
+    </div>
+    10:
+    <div id="10ans">
+        BDCCB BDDCD CABCC DDBCA ABCCD BBACA DACBB CDBDA CDADA ABAAD
+    </div>
+    11:
+    <div id="11ans">
+        CDDCB CABDA CBCAA DDBBA BCBCB BCDDA DAACA ACACC BDDCD BBDBD
+    </div>
+
+    <div style="font-size: 36px;">
+        <input type="text" id="checkInput" onkeyup="checkAns();" size="3" maxlength="4">
+        <input type="button" onclick="checkAns();" value="Submit">
+        <a id="ResultDiv"></a>
+    </div>
+
+</div>
+
+</body>
+</html>
