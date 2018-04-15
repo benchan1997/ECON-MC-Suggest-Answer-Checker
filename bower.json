@@ -1,0 +1,25 @@
+{
+  "name": "econ-mc-ans-checker",
+  "description": "This is a simple suggest answer checker for the Hong Kong Secondary Level Economics.",
+  "main": "index.html",
+  "authors": [
+    "benchan1997"
+  ],
+  "license": "MIT",
+  "homepage": "https://benchan1997.github.io/econ-mc-ans-checker/",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests",
+    "lib/bower_components"
+  ],
+  "dependencies": {
+    "bootstrap": "^4.1.0",
+    "jquery": "^3.3.1",
+    "components-font-awesome": "^5.0.6",
+    "font-awesome": "^5.0.10",
+    "jquery-touch-events": "^1.0.9"
+  }
+}

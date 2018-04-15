@@ -1,7 +1,26 @@
-# ECON-MC-Suggest-Answer-Checker
+# econ-mc-ans-checker
 
 Demo:
-[https://benchan1997.github.io/ECON-MC-Suggest-Answer-Checker/](https://benchan1997.github.io/ECON-MC-Suggest-Answer-Checker/)
+[https://benchan1997.github.io/econ-mc-ans-checker/](https://benchan1997.github.io/econ-mc-ans-checker/)
+
+
+
+---
+
+## Installation
+
+```
+bower install
+```
+
+---
+
+## Process
+
+- [x] rebuild interface with bootstrap
+- [x] add touch gesture for quick question switch
+- [x] collapse all answer in a button
+- [x] write a instruction of the usage
 
 ---
 
